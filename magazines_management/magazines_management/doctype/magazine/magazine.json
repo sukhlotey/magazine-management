@@ -1,0 +1,139 @@
+{
+ "actions": [],
+ "allow_guest_to_view": 1,
+ "allow_rename": 1,
+ "autoname": "field:magazine_name",
+ "creation": "2025-01-08 02:57:53.557332",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "magazine_name",
+  "image",
+  "column_break_ex8y",
+  "author",
+  "issn",
+  "section_break_iunr",
+  "description",
+  "category",
+  "publisher",
+  "purchase",
+  "route",
+  "published"
+ ],
+ "fields": [
+  {
+   "fieldname": "magazine_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Magazine Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fieldname": "author",
+   "fieldtype": "Data",
+   "label": "Author"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  },
+  {
+   "fieldname": "issn",
+   "fieldtype": "Data",
+   "label": "ISSN"
+  },
+  {
+   "default": "Fashion",
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "label": "Category",
+   "options": "Fashion\nMusic\nCooking\nSport\nEntertainment\nHistory\nAnimals\nCulture\nGossip"
+  },
+  {
+   "fieldname": "publisher",
+   "fieldtype": "Data",
+   "label": "Publisher"
+  },
+  {
+   "fieldname": "purchase",
+   "fieldtype": "Select",
+   "label": "Purchase",
+   "options": "Paid\nFree"
+  },
+  {
+   "fieldname": "column_break_ex8y",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_iunr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
+  },
+  {
+   "default": "0",
+   "fieldname": "published",
+   "fieldtype": "Check",
+   "label": "Published"
+  }
+ ],
+ "has_web_view": 1,
+ "index_web_pages_for_search": 1,
+ "is_published_field": "published",
+ "links": [],
+ "modified": "2025-01-08 13:26:52.867459",
+ "modified_by": "Administrator",
+ "module": "Magazines Management",
+ "name": "Magazine",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Admin",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Magazine Reader",
+   "share": 1
+  }
+ ],
+ "route": "magazines",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
