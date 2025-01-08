@@ -1,7 +1,6 @@
 # Magazines Management
 ## Frappe Application with Jinja + Bootstrap 
 ## Demo
-<hr>
 
 ### Clip
 ![Screencastfrom2025-01-0820-38-30-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/51db58ee-1a52-4061-b3a2-a9438d2bb20f)
